@@ -9,7 +9,7 @@ while True:
     n = max(values)
     m = min(values)
 
-    if m <= 0 or n <= 0:
+    if m <= 0:
         break
 
     inline = ""
@@ -18,7 +18,4 @@ while True:
     for i in range(m, n+1):
         sum += i
         inline += str(i) + " "
-
     print(f'{inline} Sum={sum}')
-
-
