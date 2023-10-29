@@ -18,4 +18,4 @@ while True:
     for i in range(m, n+1):
         sum += i
         inline += str(i) + " "
-    print(f'{inline} Sum={sum}')
+    print(f'{inline}Sum={sum}')
