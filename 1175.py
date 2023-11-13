@@ -10,7 +10,9 @@ for i in range(20):
     # adds n
     array.append(n)
 
+# slice method
 array = array[::-1]
+# declared to increment the pos of the array
 count = 0
 
 for j in array:
